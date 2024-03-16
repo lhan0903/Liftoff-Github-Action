@@ -1,5 +1,5 @@
 name: run-api
-run-name: ${{ github.actor }} is learning GitHub Actions
+run-name: run-api
 on: 
   push:
     branches:
