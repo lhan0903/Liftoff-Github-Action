@@ -16,15 +16,5 @@ jobs:
         with:
           node-version: '14'
       - name: move to the correct directory
-        run: cd api
-
-      - run: echo $PWD
-          
-      - name: install dependencies
-        run: npm install
-
-      - name: run the api
-        run: npm run build
-            
-      - name: run the test
-        run: npm run test
+        run: cd api &&  npm install && npm run build && npm run test
+  
